@@ -1,0 +1,28 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: black;
+    font-family: 'Bree Serif', serif;
+    padding: 2rem 2rem;
+
+    .logo{
+        font-size: 1.4rem;
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+        font-weight: 300;
+    }
+    
+    .nav-links{
+        ul{
+            display: flex;
+            
+            li{
+                padding: 0 20px;
+            }
+        }
+    }
+}
